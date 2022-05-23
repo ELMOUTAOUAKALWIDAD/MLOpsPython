@@ -29,7 +29,7 @@ variables:
   - name: DATASET_VERSION
     value: latest
   - name: TRAINING_PIPELINE_NAME
-    value: "diabetes-Training-Pipeline"
+    value: "ml-azure-pipeline"
   - name: MODEL_NAME
     value: diabetes_regression_model.pkl
 
