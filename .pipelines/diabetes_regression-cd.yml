@@ -1,6 +1,6 @@
 # Continuous Integration (CI) pipeline that orchestrates the deployment of the diabetes_regression model.
 - task: AMLModelDeploy@0
-  inputs:
+inputs:
     azureSubscription: 'azure-resource-connection'
     modelSourceType: 'modelArtifact'
     inferencePath: '$ (System.DefaultWorkingDirectory)/_ci-cuild/mlops-pipeline/code/scoring/inference_config.yml'
