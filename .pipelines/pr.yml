@@ -18,7 +18,7 @@ container: mlops
 
 variables:
 - template: diabetes_regression-variables-template.yml
-- group: AzureMlops
+- group: devopsforai-aml-vg
 
 steps:
 - template: code-quality-template.yml
